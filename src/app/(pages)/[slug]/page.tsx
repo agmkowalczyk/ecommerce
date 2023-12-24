@@ -20,7 +20,7 @@ import { Gutter } from '../../_components/Gutter'
 // If you are not using Payload Cloud then this line can be removed, see `../../../README.md#cache`
 export const dynamic = 'force-dynamic'
 
-import classes from '/index.module.scss'
+import classes from './index.module.scss'
 
 export default async function Page({ params: { slug = 'home' } }) {
   const { isEnabled: isDraftMode } = draftMode()
@@ -59,9 +59,13 @@ export default async function Page({ params: { slug = 'home' } }) {
   return (
     <React.Fragment>
       {slug === 'home' ? (
-        <Gutter>
+        <section>
           <Hero {...hero} />
-        </Gutter>
+
+          <Gutter className={classes.home}>
+            categories
+          </Gutter>
+        </section>
       ) : (
         <>
           <Hero {...hero} />

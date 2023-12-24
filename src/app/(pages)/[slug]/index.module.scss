@@ -5,7 +5,6 @@
   flex-direction: column;
   gap: 100px;
   margin-top: 100px;
-  border: 1px solid red;
 
   @include mid-break {
     gap: 60px;
