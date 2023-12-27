@@ -34,7 +34,7 @@ const Promotion = () => {
     return () => {
       clearInterval(timerInterval)
     }
-  }, [])
+  }, [targetDate])
 
   return (
     <section className={classes.promotion}>

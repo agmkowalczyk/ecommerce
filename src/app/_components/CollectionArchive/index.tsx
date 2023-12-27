@@ -1,16 +1,15 @@
 'use client'
 
-import React, { Fragment, useCallback, useEffect, useRef, useState } from 'react'
 import qs from 'qs'
+import React, { Fragment, useCallback, useEffect, useRef, useState } from 'react'
 
 import type { Product } from '../../../payload/payload-types'
 import type { ArchiveBlockProps } from '../../_blocks/ArchiveBlock/types'
+import { useFilter } from '../../_providers/Filter'
 import { Card } from '../Card'
 import { PageRange } from '../PageRange'
 import { Pagination } from '../Pagination'
-
 import classes from './index.module.scss'
-import { useFilter } from '../../_providers/Filter'
 
 type Result = {
   docs: Product[]
@@ -178,8 +177,8 @@ export const CollectionArchive: React.FC<Props> = props => {
         )}
 
         <div className={classes.grid}>
-          {results.docs?.map((result, index) => {
-            return <Card doc={result} relationTo={relationTo} showCategories />
+          {results.docs?.map(result => {
+            return <Card key={result.id} doc={result} relationTo={relationTo} showCategories />
           })}
         </div>
         {results.totalPages > 1 && populateBy !== 'selection' && (
