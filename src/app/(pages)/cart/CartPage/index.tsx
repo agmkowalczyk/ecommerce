@@ -105,13 +105,13 @@ export const CartPage: React.FC<{
                   <h6 className={classes.cartTotal}>Grand Total</h6>
                   <h6 className={classes.cartTotal}>{cartTotal.formatted}</h6>
                 </div>
+                <Button
+                  className={classes.checkoutButton}
+                  href={user ? '/checkout' : '/login?redirect=%2Fcheckout'}
+                  label={user ? 'Checkout' : 'Login to checkout'}
+                  appearance="primary"
+                />
               </div>
-              <Button
-                className={classes.checkoutButton}
-                href={user ? '/checkout' : '/login?redirect=%2Fcheckout'}
-                label={user ? 'Checkout' : 'Login to checkout'}
-                appearance="primary"
-              />
             </div>
           )}
         </Fragment>
