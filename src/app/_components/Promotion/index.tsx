@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+
 import classes from './index.module.scss'
 
 const Promotion = () => {
@@ -11,10 +12,10 @@ const Promotion = () => {
     seconds: 0,
   })
 
-  const targetDate = new Date()
-  targetDate.setDate(targetDate.getDate() + 3)
-
   useEffect(() => {
+    const targetDate = new Date()
+    targetDate.setDate(targetDate.getDate() + 3)
+
     const timerInterval = setInterval(() => {
       const currentTime = new Date()
       const timeDifference = Math.max(Number(targetDate) - Number(currentTime), 0)
@@ -34,7 +35,7 @@ const Promotion = () => {
     return () => {
       clearInterval(timerInterval)
     }
-  }, [targetDate])
+  }, [])
 
   return (
     <section className={classes.promotion}>
