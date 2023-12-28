@@ -1,3 +1,44 @@
+# NEXT.js E-commerce PayloadCMS
+
+## Description
+E-commerce PayloadCMS (Next, React, TypeScript, MongoDB, GraphQL, PayloadCMS)
+
+<p>
+<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="next.js">
+<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="react">
+<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
+<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongoDB">
+<img src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="graphql">
+<img src="https://img.shields.io/badge/-PAYLOAD CMS-black?style=for-the-badge&logo=payloadcms&logoColor=white" alt="payload cms">
+</p>
+
+## Live Preview
+[Click here](https://ecommerce-agm.payloadcms.app/)
+
+
+
+## Image
+
+![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce1.png "NEXT.js E-commerce PayloadCMS")
+
+![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce2.png "NEXT.js E-commerce PayloadCMS")
+
+![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce3.png "NEXT.js E-commerce PayloadCMS")
+
+![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce4.png "NEXT.js E-commerce PayloadCMS")
+
+![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce5.png "NEXT.js E-commerce PayloadCMS")
+
+![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce6.png "NEXT.js E-commerce PayloadCMS")
+
+![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce7.png "NEXT.js E-commerce PayloadCMS")
+
+![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce8.png "NEXT.js E-commerce PayloadCMS")
+
+\
+\
+\
+<br>
 # Payload E-Commerce Template
 
 This is the official [Payload E-Commerce Template](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
