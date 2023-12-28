@@ -21,7 +21,7 @@ E-commerce PayloadCMS (Next, React, TypeScript, MongoDB, GraphQL, PayloadCMS)
 
 ![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce1.png "NEXT.js E-commerce PayloadCMS")
 
-![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce2.png "NEXT.js E-commerce PayloadCMS")
+<img src="https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce2.png" alt="preview" title="NEXT.js E-commerce PayloadCMS" style="width: 350px">
 
 ![preview](https://github.com/agmkowalczyk/ecommerce/blob/main/screenshots/screenshot_ecommerce3.png "NEXT.js E-commerce PayloadCMS")
 
